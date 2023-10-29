@@ -6,6 +6,8 @@ import org.example.flyable.IFlyable;
 public class Main {
     public static void main(String[] args) {
         IFlyable obj = new Brid();
-        obj.Fly(10);
+        for (var i=0; i<10; i++ ){
+            obj.Fly(i);
+        }
     }
 }
